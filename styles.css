@@ -1,0 +1,236 @@
+:root {
+  /*
+    THIS IS THE CHANGE YOU WILL WRAP AN ISSUE AROUND.
+    The page ships with a placeholder gray accent. Your task is to change
+    --accent to Nuevo Foundation's real brand yellow: #FCC600
+    (the same yellow already in the logo above the fold).
+    Do not change it yet. First let your skill open the issue, then make the
+    change, commit it, and let your skill close the issue with a writeup.
+  */
+  --accent: #9aa0a6;
+
+  --ink: #171628;
+  --ink-soft: #494949;
+  --bg: #ffffff;
+  --surface: #f5f6f8;
+  --border: #e6e6e6;
+  --footer: #29293c;
+  --focus: #005ea8;
+
+  --font-body: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1.25rem clamp(1.25rem, 5vw, 4rem);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header__brand img {
+  display: block;
+  height: auto;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2rem);
+  font-weight: 700;
+}
+
+.site-nav a {
+  text-decoration: none;
+}
+
+.site-nav a:not(.btn):hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.5rem;
+  font-weight: 900;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.1s ease, filter 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn--primary {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+.btn--primary:hover {
+  filter: brightness(0.94);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 2px solid var(--ink);
+}
+
+.btn--sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+/* Hero */
+.hero {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) clamp(1.25rem, 5vw, 4rem) clamp(2rem, 5vw, 4rem);
+  text-align: center;
+}
+
+.hero__eyebrow,
+.section-eyebrow {
+  margin: 0 0 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.hero__title {
+  margin: 0 auto 1.5rem;
+  max-width: 22ch;
+  font-size: clamp(2.1rem, 5.5vw, 3.6rem);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.hl {
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-repeat: no-repeat;
+  background-position: 0 92%;
+  background-size: 100% 0.32em;
+}
+
+.hero__subtitle {
+  margin: 0 auto 2.25rem;
+  max-width: 42rem;
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+}
+
+.hero__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Impact */
+.impact {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 4rem) clamp(1.25rem, 5vw, 4rem) clamp(3rem, 8vw, 6rem);
+}
+
+.section-eyebrow {
+  text-align: center;
+}
+
+.section-title {
+  margin: 0 0 2.5rem;
+  text-align: center;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 900;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.75rem;
+}
+
+.card__stat {
+  margin: 0 0 0.75rem;
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.card__stat .accent {
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-repeat: no-repeat;
+  background-position: 0 95%;
+  background-size: 100% 0.2em;
+}
+
+.card p {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+/* Footer */
+.site-footer {
+  border-top: 6px solid var(--accent);
+  background: var(--footer);
+  color: #ffffff;
+  padding: clamp(2rem, 5vw, 3rem) clamp(1.25rem, 5vw, 4rem);
+  text-align: center;
+}
+
+.site-footer__mark {
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.site-footer__note {
+  margin: 0 auto;
+  max-width: 36rem;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
