@@ -1,0 +1,13 @@
+## Work: keep one reviewable change
+
+1. Work on a feature branch, not the default branch. Implement only the agreed
+   scope, using supplied local facts and assets rather than invented claims.
+2. Run the relevant existing checks and inspect the actual result. For a website
+   change, inspect the affected page as well as applicable automated checks.
+3. Review `git diff` and `git status --short`. Stage explicit intended paths,
+   including a new `SKILL.md` when relevant. Never sweep unrelated files into a
+   commit or assume `git commit -am` includes new files.
+4. Commit and push only when authorized, referencing the real issue as `#NUMBER`.
+   Never force-push. For the normal merged-PR gate, open or reuse a pull request
+   and respect its checks, reviews, and branch policy. Do not bypass a failing gate.
+

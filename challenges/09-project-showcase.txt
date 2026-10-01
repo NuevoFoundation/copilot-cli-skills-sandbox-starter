@@ -1,0 +1,37 @@
+CHALLENGE 09: Show what a tiny coding project can become
+FROM: Madeleyne Vaca, Hardware Lead, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. All showcased projects are clearly labeled examples.
+
+GO-TO
+Madeleyne wants to show learners what a small coding activity can become.
+Create a small project gallery with three supplied examples. Each card should
+connect an inviting illustration to a specific thing a learner could practise.
+Clicking "What I can learn" should expand the supplied learning note locally.
+
+GROUNDING
+Read challenge-data/content.json: projectSamples and about.draftNotes.
+Use the three original SVG illustrations in assets/projects. These are workshop
+examples, not real student submissions, testimonials, or measured outcomes.
+Do not add student names, photos, awards, schools, or fabricated quotes.
+
+SCOPE
+Create projects.html, extend styles.css, and add a Project showcase link in the
+homepage's "Workshop pages" footer nav. Native details/summary is sufficient
+for the expandable notes; no JavaScript framework is needed.
+
+ACCEPTANCE
+1. All three supplied titles, topics, illustrations, and learning notes appear.
+2. Each card visibly says it is an illustrative workshop sample.
+3. Images have meaningful supplied alt text and stable dimensions.
+4. All expandable notes work with keyboard and pointer, with visible focus.
+5. The page loads fully offline, stays readable at 390px and 1440px, and has a
+   working return-home link. No uploads, user accounts, or remote assets.
+
+USE THE SKILL
+GitHub Copilot CLI should automatically use issue-lifecycle for this brief.
+Start its issue before code changes in your assigned repo and continue through
+the authorized phases. Verify every card and expand/collapse interaction, review the
+diff and intended staged files, and authorize commit/push. Finish with real
+observations and branch evidence. Do not describe these as real student results
+or a production launch. Record remote failures as pending.

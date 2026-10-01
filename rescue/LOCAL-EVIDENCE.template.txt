@@ -1,0 +1,25 @@
+STATE: LOCAL ONLY / PENDING ONLINE
+
+Brief or work unit:
+Assigned repository URL (say if remote access is unverified):
+Why online work is blocked (actual error, no credentials):
+
+What changed locally:
+Files changed:
+Acceptance checks actually performed and their observed results:
+Checks not performed:
+Local commit SHA (only if a commit really exists; otherwise NOT COMMITTED):
+
+Pending online steps:
+- Confirm the assigned repository, authentication, and write permissions.
+- Open or reconcile the actual issue; label retrospective work honestly.
+- Review and publish the intended branch change.
+- Verify the agreed completion gate.
+- Post or reuse the real completion record, close, and verify final state.
+
+Runtime status (choose the true one):
+- SKILL was invoked successfully.
+- SKILL invocation failed; describe the error.
+- Model unavailable; SKILL assembled but invocation UNVERIFIED.
+
+Do not use a sample issue number or pretend a local SHA is a published URL.

@@ -1,0 +1,62 @@
+{
+  "kind": "Recorded real NF rollout evidence, not a live classroom run",
+  "snapshotDate": "2026-09-30",
+  "snapshotTimezone": "America/Los_Angeles",
+  "repository": "https://github.com/NuevoFoundation/nuevofoundation-web",
+  "defaultBranch": "master",
+  "issue": {
+    "number": 345,
+    "url": "https://github.com/NuevoFoundation/nuevofoundation-web/issues/345",
+    "state": "CLOSED",
+    "closedAtUtc": "2026-10-01T05:39:49Z",
+    "labels": [],
+    "completionComment": "https://github.com/NuevoFoundation/nuevofoundation-web/issues/345#issuecomment-5925466014"
+  },
+  "pullRequest": {
+    "number": 346,
+    "url": "https://github.com/NuevoFoundation/nuevofoundation-web/pull/346",
+    "state": "MERGED",
+    "branch": "feature/issue-lifecycle-skill",
+    "mergedAtUtc": "2026-10-01T05:03:32Z",
+    "originalCommit": "c72c1ee03cab634c6736cd617e1b0ccf933d132d",
+    "mergeCommit": "856986174ddfbf62b3a09c968dbcf7f51ebb35b2",
+    "mergeCommitUrl": "https://github.com/NuevoFoundation/nuevofoundation-web/commit/856986174ddfbf62b3a09c968dbcf7f51ebb35b2",
+    "reportedChecks": [
+      {"name": "Analyze (javascript-typescript)", "conclusion": "SUCCESS"},
+      {"name": "CodeQL", "conclusion": "SUCCESS"},
+      {"name": "NuevoFoundation.nuevofoundation-web", "conclusion": "SUCCESS"}
+    ],
+    "review": "The owner explicitly approved the existing owner/admin review exemption for this skill-only PR. This is not an independent review approval.",
+    "branchProtectionChanged": false,
+    "failedChecksOverridden": false
+  },
+  "changedFiles": [
+    ".github/copilot-instructions.md",
+    ".github/skills/issue-lifecycle/SKILL.md",
+    ".github/skills/issue-lifecycle/README.md"
+  ],
+  "skillAtMerge": "https://github.com/NuevoFoundation/nuevofoundation-web/blob/856986174ddfbf62b3a09c968dbcf7f51ebb35b2/.github/skills/issue-lifecycle/SKILL.md",
+  "observedChecks": {
+    "referenceRegressionChecksPassed": 45,
+    "synchronizedPayloadsChecked": 13,
+    "realCliStart": "Selected issue-lifecycle and reused the open issue without duplicate creation.",
+    "realCliFinish": "Selected the skill and verified the merged PR, scope, checks, and published merge SHA. Non-interactive tool approval blocked the comment before execution. The skill reported the unchanged open issue and stopped.",
+    "remoteCompletion": "The owner separately authorized operator-assisted posting of the prepared summary, issue closure, and removal of in progress. Final state and comment were re-read. The unattended finish did not perform these writes.",
+    "pairedSimulation": {
+      "scenarios": 2,
+      "runsPerScenarioPerVersion": 1,
+      "selectedAssertionsPerVersion": 10,
+      "newCorePassed": 10,
+      "previousCorePassed": 5,
+      "limitation": "Closed simulations, not live GitHub mutations, repeated-trial statistics, or a reliability guarantee."
+    }
+  },
+  "notClaimed": [
+    "A new website feature or application deployment.",
+    "A fully autonomous successful finish.",
+    "A live invocation in the room.",
+    "Verified classroom import, managed-account permissions, model connectivity, or interactive approval behavior.",
+    "Ten implemented and tested website features."
+  ],
+  "classroomBoundary": "Use your assigned repository and real issue number. Do not mutate this public demo issue or reuse its IDs as lab data."
+}

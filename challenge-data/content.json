@@ -1,0 +1,163 @@
+{
+  "about": {
+    "purpose": "Local grounding for optional Nuevo Foundation workshop challenges. This is not a live data feed.",
+    "sourceRepository": "https://github.com/NuevoFoundation/nuevofoundation-web",
+    "sourceCommit": "1da1bdc43a45b0788ed8e492946d766a5f6286dd",
+    "snapshotDate": "2026-09-30",
+    "instructions": "Read this file while coding. Put the selected content directly in local HTML or ordinary JavaScript. Do not fetch JSON at runtime under file://. Do not browse for replacements or invent missing facts.",
+    "scope": "Practice in the assigned workshop repository only. No production publishing, payments, messages, personal-data collection, or live event registration.",
+    "teamNotes": "Public NF names and roles are a source snapshot, not a current directory verification. Short blurbs are original NF-only summaries. The source typo Logicstics is normalized to Logistics; trailing name whitespace is removed. Avatars are original illustrative characters, not portraits or inferred likenesses.",
+    "draftNotes": "Blog articles, example project cards, catalog exercises, translations, and lesson text are workshop-authored content. They are not claimed to be previously published NF articles, real student work, or scheduled offerings.",
+    "requestNotes": "The brief requesters are real NF team members from the public About Us page, checked October 1, 2026. The feature requests are written for this lab, not quoted messages or a verified production backlog."
+  },
+  "sources": {
+    "requesters": "https://www.nuevofoundation.org/about-us",
+    "impact": "https://github.com/NuevoFoundation/nuevofoundation-web/blob/1da1bdc43a45b0788ed8e492946d766a5f6286dd/src/components/static/pages/Home.tsx",
+    "team": "https://github.com/NuevoFoundation/nuevofoundation-web/blob/1da1bdc43a45b0788ed8e492946d766a5f6286dd/src/components/static/pages/AboutUs.tsx",
+    "programs": "https://github.com/NuevoFoundation/nuevofoundation-web/blob/1da1bdc43a45b0788ed8e492946d766a5f6286dd/src/components/static/pages/WhatWeDo.tsx",
+    "volunteering": "https://github.com/NuevoFoundation/nuevofoundation-web/blob/1da1bdc43a45b0788ed8e492946d766a5f6286dd/src/components/static/pages/GetInvolved.tsx",
+    "siteRoutes": "https://github.com/NuevoFoundation/nuevofoundation-web/blob/1da1bdc43a45b0788ed8e492946d766a5f6286dd/src/Const.ts"
+  },
+  "challengeRequests": [
+    {"brief": "01-impact-counters.txt", "requesterId": "bea"},
+    {"brief": "02-local-blog.txt", "requesterId": "mollee"},
+    {"brief": "03-team-cartoon-cards.txt", "requesterId": "izzy"},
+    {"brief": "04-nine-concept-workshop.txt", "requesterId": "oliver"},
+    {"brief": "05-workshop-finder.txt", "requesterId": "dee"},
+    {"brief": "06-volunteer-paths.txt", "requesterId": "america"},
+    {"brief": "07-workshop-request-preview.txt", "requesterId": "anvesha"},
+    {"brief": "08-bilingual-introduction.txt", "requesterId": "ximena"},
+    {"brief": "09-project-showcase.txt", "requesterId": "madeleyne"},
+    {"brief": "10-program-faq.txt", "requesterId": "kathryn"}
+  ],
+  "teamPlaceholder": {
+    "image": "assets/Nuvi-Robot.svg",
+    "alt": "Nuvi, Nuevo Foundation's robot mascot",
+    "note": "Provided NF mascot artwork, bundled unchanged. A team-feature placeholder, not an individual team member's portrait."
+  },
+  "impact": {
+    "caption": "Source snapshot: September 30, 2026. These are published website figures, not a live or independently audited counter.",
+    "metrics": [
+      {"id": "students", "value": 23832, "display": "23,832", "label": "Students reached", "context": "The homepage's published student count."},
+      {"id": "interest", "value": 85, "display": "85%", "label": "More interested in STEM", "context": "Students reported greater interest in STEM."},
+      {"id": "learning", "value": 90, "display": "90%", "label": "Believed they learned to code", "context": "Students felt they had learned new coding concepts."}
+    ]
+  },
+  "blogDrafts": [
+    {
+      "slug": "first-small-win",
+      "title": "Start with one small coding win",
+      "category": "Teaching",
+      "status": "Workshop sample article",
+      "author": "Nuevo Foundation workshop example",
+      "summary": "Give a new learner one visible change to make, then invite them to explain what happened.",
+      "paragraphs": [
+        "A blank page can feel intimidating. Start with a tiny, visible outcome: change a heading, move a shape, or make a button respond. Ask the learner to predict what will happen before they run the code.",
+        "When the result appears, pause. Invite the learner to describe which line caused the change. Then ask for one variation of their own. The goal of this sample exercise is not speed or a perfect page. It is a small connection between an idea, a change, and something the learner can observe.",
+        "Keep the next step optional and specific. For example, ask them to choose a new label for the button, rather than redesigning the entire site at once."
+      ]
+    },
+    {
+      "slug": "debug-with-observations",
+      "title": "Debug with observations, not guesses",
+      "category": "Coding",
+      "status": "Workshop sample article",
+      "author": "Nuevo Foundation workshop example",
+      "summary": "Turn a confusing result into a repeatable observation and a smaller experiment.",
+      "paragraphs": [
+        "When a page behaves unexpectedly, first describe what you expected and what you actually saw. Include the action that caused it and whether you can reproduce it.",
+        "Change one thing at a time. If a button does not respond, check that the button exists, that its label is clear, and that the event handler points to the intended element. A smaller experiment makes it easier to connect cause and effect.",
+        "After the fix, repeat the original action. Also try a nearby case, such as activating the button with a keyboard. Write down the observation instead of simply saying that everything works."
+      ]
+    },
+    {
+      "slug": "ship-with-a-receipt",
+      "title": "Ship a change with a useful record",
+      "category": "Teamwork",
+      "status": "Workshop sample article",
+      "author": "Nuevo Foundation workshop example",
+      "summary": "Connect a feature request to its implementation, checks, and real delivery evidence.",
+      "paragraphs": [
+        "A useful delivery record helps the next volunteer understand why a change exists. Start with a short problem statement and acceptance criteria that someone can check.",
+        "Keep the implementation focused. Review the files you intend to commit, run the relevant checks, and link the result to its issue. A local commit and a deployed feature are different states.",
+        "Finish by recording what changed, why it mattered, which checks actually ran, and where the published change can be found. If something remains blocked, leave that visible rather than treating a draft as a completed delivery."
+      ]
+    }
+  ],
+  "team": [
+    {"id": "bea", "name": "Beatris Mendez Gandica", "role": "CEO/Founder", "blurb": "Founded Nuevo Foundation and helps its team improve programs that introduce students to STEM.", "avatar": "assets/avatars/bea.svg"},
+    {"id": "mollee", "name": "Mollee Jain", "role": "COO", "blurb": "Oversees foundation operations and helps turn its educational vision into practical programs.", "avatar": "assets/avatars/mollee.svg"},
+    {"id": "jeremiah", "name": "Jeremiah Isaacson", "role": "CTO", "blurb": "Builds the technology foundations that support NF developers, educators, and growing STEM offerings.", "avatar": "assets/avatars/jeremiah.svg"},
+    {"id": "oliver", "name": "Oliver Zhang", "role": "Curriculum Guru", "blurb": "Helps make difficult coding concepts easier to understand through teaching and curriculum.", "avatar": "assets/avatars/oliver.svg"},
+    {"id": "anvesha", "name": "Anvesha Sinha", "role": "Logistics Ninja", "blurb": "Supports coding workshop experiences and helps make new concepts approachable for beginners.", "avatar": "assets/avatars/anvesha.svg"},
+    {"id": "izzy", "name": "Izzy Beltran", "role": "Creative Director and Master of Fun", "blurb": "Brings a creative design perspective to the foundation's mission and learning experiences.", "avatar": "assets/avatars/izzy.svg"},
+    {"id": "paola", "name": "Paola Ramirez", "role": "Design Alchemist and Pixel Perfectionist", "blurb": "Contributes visual design to help communicate the Nuevo Foundation mission.", "avatar": "assets/avatars/paola.svg"},
+    {"id": "ximena", "name": "Ximena Cortez", "role": "Program Lead, Chicago Initiatives", "blurb": "Supports NF programs and website development while encouraging students to explore STEM.", "avatar": "assets/avatars/ximena.svg"},
+    {"id": "madeleyne", "name": "Madeleyne Vaca", "role": "Hardware Lead", "blurb": "Introduces students to hardware and the possibilities of building with technology.", "avatar": "assets/avatars/madeleyne.svg"},
+    {"id": "america", "name": "América Quistiano", "role": "Community Lead", "blurb": "Shares enthusiasm for technology and helps connect students with the foundation's mission.", "avatar": "assets/avatars/america.svg"},
+    {"id": "joaquin", "name": "Joaquín Ruales", "role": "Front-end Ninja", "blurb": "Contributes to the workshops website and explains technical concepts through approachable experiences.", "avatar": "assets/avatars/joaquin.svg"},
+    {"id": "adrian", "name": "Adrian Tirado-Medina", "role": "Designated Showsman/Hypeman", "blurb": "Shares a love of STEM through outreach and engaging learning experiences.", "avatar": "assets/avatars/adrian.svg"},
+    {"id": "kathryn", "name": "Kathryn Baldauf", "role": "Curriculum Genius", "blurb": "Contributes an education-focused perspective to the NF curriculum team.", "avatar": "assets/avatars/kathryn.svg"},
+    {"id": "gabe", "name": "Gabe Rodriguez", "role": "Light Whisperer (aka Photographer)", "blurb": "Supports the foundation's mission through photography.", "avatar": "assets/avatars/gabe.svg"},
+    {"id": "roy", "name": "Roy Moran", "role": "Honorary Head of Technology", "blurb": "Supports technology that helps the foundation extend access to STEM learning.", "avatar": "assets/avatars/roy.svg"},
+    {"id": "dee", "name": "Deliana Escobari", "role": "Honorary VP Web Development, Curriculum Designer, and Content Creator", "blurb": "Created the Web Basics curriculum and contributes to NF web and learning content.", "avatar": "assets/avatars/dee.svg"}
+  ],
+  "concepts": [
+    {"name": "Instructions", "verb": "Guide", "meaning": "Standing guidance about how work should be done in a repository.", "nfExample": "Use approved NF facts and track feature work before implementing it.", "boundary": "Model guidance is not a security or enforcement guarantee."},
+    {"name": "Prompts", "verb": "Request", "meaning": "The task and context you give the agent for this interaction.", "nfExample": "Add the three impact values from this local PM brief.", "boundary": "A reusable prompt file is a client-specific convenience, not automatically a CLI command."},
+    {"name": "Agents", "verb": "Specialize", "meaning": "A focused role with instructions and a configured set of tools.", "nfExample": "An issue triager proposes labels for at most five issues.", "boundary": "A role name does not guarantee expertise, isolation, or permission."},
+    {"name": "SKILLS", "verb": "Reuse", "meaning": "A discoverable package of instructions and optional resources for a repeatable procedure.", "nfExample": "The issue-lifecycle SKILL carries a feature from an issue through verification and an evidence-backed finish.", "boundary": "Natural-language selection can vary. Explicit invocation and inspection are useful fallbacks."},
+    {"name": "Hooks", "verb": "Check", "meaning": "Code that runs at a supported tool or session lifecycle event.", "nfExample": "A bounded pre-tool check rejects a simple git commit command whose literal message lacks an issue reference.", "boundary": "Coverage is limited by the hook, parser, event, timeout behavior, and client. It is not universal enforcement."},
+    {"name": "MCP", "verb": "Connect", "meaning": "Model Context Protocol exposes external tools and resources through a standard interface.", "nfExample": "Approved GitHub tools can read or update an issue when the account and tool permissions allow it.", "boundary": "A connection supplies capabilities, not permission or a workflow. GitHub CLI is an alternative for this lab."},
+    {"name": "LSP", "verb": "Navigate", "meaning": "Language Server Protocol supplies language-aware services such as diagnostics, symbols, and definitions.", "nfExample": "A configured language server helps navigate and diagnose a larger website's code.", "boundary": "The language server and client integration must exist. LSP does not replace testing or model judgment."},
+    {"name": "Plugins", "verb": "Package", "meaning": "A compatible bundle that can carry several customization components together.", "nfExample": "Package the delivery SKILL with a task command, triage agent, and bounded hook.", "boundary": "A plugin packages components; it does not grant their permissions or make every client's schemas identical."},
+    {"name": "Marketplace", "verb": "Distribute", "meaning": "A catalog used to discover and distribute compatible plugins.", "nfExample": "An approved team catalog can point to a reviewed version of the NF workflow plugin.", "boundary": "Catalog availability does not prove trust. Review the source and organization policy before installing."}
+  ],
+  "lesson": {
+    "audience": "New volunteer developers",
+    "title": "Nine tools for a repeatable coding workflow",
+    "requestVsRecipe": "A prompt is the order: cook dinner. A SKILL is the reusable recipe and procedure. Instructions are the kitchen's standing rules. An agent is a focused role, such as the prep cook. The analogy explains roles, not implementation boundaries.",
+    "practicePrompt": "Preview how you would add grounded impact counters with the issue-lifecycle SKILL. Do not edit files or change GitHub.",
+    "quiz": {"question": "Which concept carries the reusable issue-to-evidence procedure?", "choices": ["SKILL", "Marketplace", "LSP"], "answer": "SKILL"},
+    "prerequisites": "Reading the lesson needs only a browser. A real hosted GitHub Copilot CLI exercise also needs an approved account and permitted model-service connectivity."
+  },
+  "workshopExamples": [
+    {"id": "scratch", "title": "Scratch: start a story", "topic": "Scratch", "category": "Visual coding", "goal": "Use a sequence of blocks to tell a short interactive story.", "status": "Practice catalog example"},
+    {"id": "python", "title": "Python: draw a pattern", "topic": "Python", "category": "Text coding", "goal": "Use a repeatable sequence to describe a simple pattern.", "status": "Practice catalog example"},
+    {"id": "javascript", "title": "JavaScript: make a button respond", "topic": "JavaScript", "category": "Web", "goal": "Connect a button to a visible, local page change.", "status": "Practice catalog example"},
+    {"id": "html-css", "title": "HTML/CSS: build a small page", "topic": "HTML/CSS", "category": "Web", "goal": "Give a small page clear structure and readable styling.", "status": "Practice catalog example"},
+    {"id": "csharp", "title": "C#: describe a collection", "topic": "C#", "category": "Text coding", "goal": "Represent a small set of related items with code.", "status": "Practice catalog example"}
+  ],
+  "volunteerPaths": [
+    {"id": "curriculum", "title": "Create curriculum", "intro": "Help turn a coding idea into an approachable learning activity.", "checklist": ["Choose one learning outcome.", "Write a small activity and its expected result.", "Review the wording with another facilitator."]},
+    {"id": "workshop", "title": "Help with a workshop", "intro": "Support learners as they explore a hands-on coding activity.", "checklist": ["Review the selected activity.", "Prepare one small demonstration.", "Practise giving a helpful hint without taking over."]},
+    {"id": "virtual", "title": "Host a virtual session", "intro": "Share a STEM journey and make room for learners' questions.", "checklist": ["Choose an accessible story about your work.", "Prepare a simple explanation of one concept.", "Leave time for questions."]}
+  ],
+  "requestPreview": {
+    "notice": "Practice preview only. Nothing is sent, stored, booked, or promised.",
+    "programs": ["Coding workshop", "Virtual session", "Speaker series"],
+    "audiences": ["Elementary learners", "Secondary learners", "Volunteer developers"],
+    "groupSizeMin": 1,
+    "groupSizeMax": 60,
+    "validationNote": "The 1-60 range is a workshop UI exercise, not an NF program-capacity policy.",
+    "forbiddenFields": ["student names", "email", "phone", "school address", "birth dates"]
+  },
+  "missionCopy": {
+    "en": {"lang": "en", "heading": "Inspiring kids to be curious, confident, and courageous by discovering the world of STEM.", "intro": "Explore coding, meet people in STEM, and discover what you can build.", "primary": "Get involved", "secondary": "Explore coding"},
+    "es": {"lang": "es", "heading": "Inspiramos a los niños a ser curiosos, seguros y valientes al descubrir el mundo de STEM.", "intro": "Explora la programación, conoce a personas que trabajan en STEM y descubre lo que puedes crear.", "primary": "Participa", "secondary": "Explora la programación"},
+    "notice": "Workshop translation of this introduction only. The rest of this practice site remains in English."
+  },
+  "projectSamples": [
+    {"id": "space-card", "title": "Space explorer card", "topic": "HTML/CSS", "image": "assets/projects/space-card.svg", "alt": "Illustrative project tile with a planet and stars.", "learns": "Structure a card and arrange decorative shapes.", "status": "Illustrative workshop sample, not a real student's work."},
+    {"id": "pixel-garden", "title": "Pixel garden", "topic": "CSS", "image": "assets/projects/pixel-garden.svg", "alt": "Illustrative project tile with three geometric flowers.", "learns": "Use repeated shapes, spacing, and color.", "status": "Illustrative workshop sample, not a real student's work."},
+    {"id": "button-lab", "title": "Button experiment", "topic": "JavaScript", "image": "assets/projects/button-lab.svg", "alt": "Illustrative project tile showing a button and a changing shape.", "learns": "Connect an interaction to a visible result.", "status": "Illustrative workshop sample, not a real student's work."}
+  ],
+  "faq": [
+    {"question": "What does Nuevo Foundation help learners explore?", "answer": "Its programs introduce learners to STEM through coding activities and conversations with people in the field.", "source": "programs"},
+    {"question": "Which kinds of programs appear on the NF website?", "answer": "The source website describes coding workshops, virtual sessions, and a speaker series.", "source": "programs"},
+    {"question": "Which coding topics are mentioned?", "answer": "Scratch, Python, JavaScript, HTML/CSS, and C# are listed in the source description of coding workshops.", "source": "programs"},
+    {"question": "How can volunteers contribute?", "answer": "The source website lists creating curriculum, helping with a workshop, and hosting a virtual session as volunteer paths.", "source": "volunteering"},
+    {"question": "Can this practice site register me for a real program?", "answer": "No. This is a local workshop canvas. It does not submit registrations, send messages, or collect personal information.", "source": "workshop scope"},
+    {"question": "Are the impact figures live?", "answer": "No. They are a dated snapshot from the public website source. This exercise does not connect to an operational reporting system.", "source": "impact"}
+  ]
+}

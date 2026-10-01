@@ -1,0 +1,39 @@
+CHALLENGE 02: Give volunteer knowledge a small, readable blog
+FROM: Mollee Jain, COO, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. One feature and one delivery record at a time.
+
+GO-TO
+Mollee thinks we could use a small blog to share useful volunteer knowledge.
+The production NF site has a blog. Build a small, offline version for this
+practice site so a volunteer can scan three useful articles and read one in
+full. This is a static-content feature, not a publishing platform.
+
+GROUNDING
+Read challenge-data/content.json: about.draftNotes and blogDrafts.
+All three supplied articles are original workshop samples. Preserve their
+sample labels. Do not claim they are existing published NF stories, add fake
+publication dates, or attribute them to a real team member.
+
+SCOPE
+Create blog.html and three local article pages named after the supplied slugs.
+Use styles.css for shared styling. Add one Blog link to the homepage's
+"Workshop pages" footer navigation. Every article needs a return link to the
+blog and home. Keep the complete supplied paragraphs, not summary-only pages.
+
+ACCEPTANCE
+1. The blog shows exactly three title/category/summary cards and working links.
+2. Each local article page shows its full supplied text and sample attribution.
+3. No WordPress, CMS, comments, accounts, analytics, remote fonts, or live feed.
+4. Headings are hierarchical; links have meaningful names and visible focus.
+5. The index and all three articles work offline at 390px and 1440px.
+
+USE THE SKILL
+GitHub Copilot CLI should load issue-lifecycle automatically for this request.
+Open or reuse the feature's issue and apply in progress before editing.
+For an authorized full-feature request, continue; stop here only if asked to
+start tracking and nothing more. Implement and inspect
+every new page. Review the diff, stage only this feature's intended files, and
+authorize the commit/push. Finish with actual page checks and published branch
+evidence under the agreed workshop gate. Do not call it a production launch.
+Unavailable GitHub actions stay LOCAL ONLY / PENDING ONLINE.

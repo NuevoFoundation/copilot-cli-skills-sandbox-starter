@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Button experiment</title>
+  <desc id="desc">Illustrative project tile showing a button and a changing shape. Illustrative workshop sample, not a real student's work.</desc>
+  <rect width="600" height="400" rx="32" fill="#FFF1DD"/>
+  <rect x="46" y="45" width="508" height="310" rx="22" fill="#FFFFFF" stroke="#171628" stroke-width="4"/>
+  <path d="M46 91h508" stroke="#171628" stroke-width="4"/>
+  <g fill="#ED9079"><circle cx="75" cy="68" r="6"/><circle cx="96" cy="68" r="6"/><circle cx="117" cy="68" r="6"/></g>
+  <rect x="94" y="172" width="172" height="78" rx="16" fill="#FCC600" stroke="#171628" stroke-width="4"/>
+  <text x="180" y="220" text-anchor="middle" font-family="Consolas,monospace" font-size="24" fill="#171628">Try it</text>
+  <path d="M290 212h62m-13-12 13 12-13 12" fill="none" stroke="#171628" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="433" cy="212" r="50" fill="#7ECDB6" stroke="#171628" stroke-width="4"/>
+  <path d="m411 213 15 14 30-34" fill="none" stroke="#171628" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

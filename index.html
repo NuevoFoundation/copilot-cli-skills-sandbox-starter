@@ -7,29 +7,19 @@
       name="description"
       content="Nuevo Foundation inspires kids to be curious, confident, and courageous by discovering the world of STEM."
     />
-    <title>Nuevo Foundation</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap"
-      rel="stylesheet"
-    />
+    <title>Nuevo Foundation | Workshop starter</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#top">Skip to main content</a>
     <header class="site-header">
       <a class="site-header__brand" href="#top" aria-label="Nuevo Foundation home">
         <img src="assets/logo.svg" alt="Nuevo Foundation" width="200" />
       </a>
       <nav class="site-nav" aria-label="Primary">
         <a href="#impact">What we do</a>
-        <a href="#impact">Get involved</a>
-        <a href="#impact">Support us</a>
-        <a class="btn btn--primary btn--sm" href="#impact">Donate</a>
+        <a href="#get-involved">Get involved</a>
+        <a class="btn btn--primary btn--sm" href="lab-guide.html">Build the SKILL</a>
       </nav>
     </header>
 
@@ -46,7 +36,7 @@
           possibilities behind STEM careers.
         </p>
         <div class="hero__actions">
-          <a class="btn btn--primary" href="#impact">Get involved</a>
+          <a class="btn btn--primary" href="#get-involved">Get involved</a>
           <a class="btn btn--ghost" href="#impact">See our workshops</a>
         </div>
       </section>
@@ -78,9 +68,22 @@
           </article>
         </div>
       </section>
+      <section class="involvement" id="get-involved" aria-labelledby="involvement-title">
+        <p class="section-eyebrow">Small contributions. Real possibilities.</p>
+        <h2 class="section-title" id="involvement-title">Bring your curiosity</h2>
+        <p>
+          Share a SKILL, encourage a student, or help a team teach. This page is
+          a small practice canvas for the people who make those moments possible.
+        </p>
+        <p class="involvement__link">
+          Learn about the real organization at
+          <a href="https://nuevofoundation.org">nuevofoundation.org</a>
+          (internet access required).
+        </p>
+      </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" id="workshop">
       <img
         class="site-footer__mark"
         src="assets/logo.svg"
@@ -89,8 +92,13 @@
       />
       <p class="site-footer__note">
         Built for the GitHub Universe 2026 Sandbox. This is a workshop starter,
-        not the production site.
+        not the production site. Build your issue-lifecycle SKILL first, then
+        choose an optional PM challenge. No donations or personal data are collected here.
       </p>
+      <nav class="footer-links" aria-label="Workshop pages">
+        <a href="lab-guide.html">Skill-building guide</a>
+        <a href="lab-guide.html#challenges">Optional PM challenges</a>
+      </nav>
     </footer>
   </body>
 </html>

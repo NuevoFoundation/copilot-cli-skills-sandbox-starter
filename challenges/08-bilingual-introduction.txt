@@ -1,0 +1,38 @@
+CHALLENGE 08: Welcome readers in English and Spanish
+FROM: Ximena Cortez, Program Lead, Chicago Initiatives, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. Translate this introduction, not the entire site.
+
+GO-TO
+Ximena wants the homepage introduction to welcome readers in English and Spanish.
+Add an English/Espanol choice to the homepage introduction. Switch its heading,
+short intro, and two action labels using the supplied translations. NF's
+learning mission and multilingual program context inspire this small exercise.
+
+GROUNDING
+Read challenge-data/content.json: missionCopy.
+These are workshop-authored translations. Use the supplied text without
+inventing additional program claims. Keep the notice explaining the limited
+translation scope. Preserve the Nuevo Foundation brand name.
+
+SCOPE
+Edit the existing .hero in index.html and styles.css; add mission-language.js
+if needed. Keep the existing action destinations. Use two labeled buttons,
+aria-pressed, and a language attribute on the translated introduction.
+The rest of the page stays English, so do not relabel the whole document as Spanish.
+
+ACCEPTANCE
+1. English is the initial state. All four supplied strings switch correctly
+   to Spanish and back, including accented characters.
+2. The introduction's lang attribute matches the selected language.
+3. Keyboard operation works, focus remains visible, and updates are announced.
+4. The scope notice is visible. No translation API, remote font, or persistence.
+5. Neither language clips or overflows at 390px and 1440px.
+
+USE THE SKILL
+GitHub Copilot CLI should automatically use issue-lifecycle for this brief.
+Start or reuse its own issue before editing your assigned repo and continue
+through the authorized phases. Inspect both language states, then review the diff and
+explicit paths before authorizing commit/push. Finish with actual checks and
+published branch evidence, not a claim that the entire site is localized.
+Unavailable online operations remain pending.

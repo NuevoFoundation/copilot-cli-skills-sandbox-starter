@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative avatar for Roy Moran's team card</title>
+  <desc id="desc">An original friendly geometric coding character. It is not a portrait or a depiction of this person's appearance.</desc>
+  <rect width="320" height="320" rx="48" fill="#F7F5EE"/>
+  <circle cx="160" cy="165" r="120" fill="#FCC600" opacity=".35"/>
+  <g fill="#ED9079"><circle cx="47" cy="99" r="8"/><circle cx="264" cy="189" r="6"/></g>
+  <path d="M256 64v20m-10-10h20M57 166v14m-7-7h14" stroke="#171628" stroke-width="3"/>
+  <path d="M170 103V69" stroke="#171628" stroke-width="6" /><circle cx="170" cy="62" r="11" fill="#FCC600" stroke="#171628" stroke-width="4"/>
+  <path d="M72 221l-17 21m193-21 17 21" stroke="#171628" stroke-width="10" stroke-linecap="round"/>
+  <path d="M89 291v-41c0-31 27-53 71-53s71 22 71 53v41" fill="#ED9079" stroke="#171628" stroke-width="5"/>
+  <rect x="76" y="96" width="168" height="120" rx="64" fill="#ED9079" stroke="#171628" stroke-width="5"/>
+  <circle cx="129" cy="146" r="16" fill="white" stroke="#171628" stroke-width="4"/><circle cx="191" cy="146" r="16" fill="white" stroke="#171628" stroke-width="4"/><circle cx="132" cy="146" r="6" fill="#171628"/><circle cx="192" cy="146" r="6" fill="#171628"/>
+  <path d="M139 180q21 17 42 0" fill="none" stroke="#171628" stroke-width="5" stroke-linecap="round"/>
+  <rect x="127" y="237" width="66" height="37" rx="11" fill="#FFFFFF" stroke="#171628" stroke-width="3"/>
+  <text x="160" y="262" text-anchor="middle" font-family="Consolas,monospace" font-size="22" font-weight="700" fill="#171628">= </text>
+</svg>

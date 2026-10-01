@@ -1,0 +1,36 @@
+CHALLENGE 10: Answer the six questions a new visitor asks
+FROM: Kathryn Baldauf, Curriculum Genius, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. A small feature still deserves the full delivery record.
+
+GO-TO
+Kathryn wants new visitors to find answers to their first questions in one place.
+Add a six-question FAQ after the homepage's #get-involved section. Make the
+answers easy to scan and expand. A visitor should understand the programs,
+volunteer paths, and limits of this practice site without chasing broken links.
+
+GROUNDING
+Read challenge-data/content.json: faq and sources.
+Use the six provided question/answer pairs. They are grounded summaries plus
+explicit workshop boundaries. Do not invent fees, eligibility guarantees,
+availability, safety policies, registration promises, or additional statistics.
+
+SCOPE
+Edit index.html and styles.css only. Use a section with a heading and native
+details/summary elements. No new dependency or custom accordion JavaScript.
+Preserve all other previously completed homepage features.
+
+ACCEPTANCE
+1. Exactly six supplied questions appear, each with the matching answer.
+2. Every answer can be expanded and collapsed by keyboard or pointer.
+3. Summary focus is visible, and the section is readable at 390px and 1440px.
+4. The practice-site and non-live-statistics limitations remain explicit.
+5. The page still works from file:// without external runtime requests.
+
+USE THE SKILL
+GitHub Copilot CLI should automatically use issue-lifecycle for this request.
+Start or reuse a separate issue before editing your assigned repo and continue
+through the authorized phases. Record the six-question and interaction checks. Review the
+diff and explicit paths before authorizing commit/push, then finish with real
+branch evidence under the agreed workshop gate. If GitHub is blocked, keep
+LOCAL ONLY / PENDING ONLINE evidence rather than inventing completion.

@@ -1,0 +1,40 @@
+CHALLENGE 01: Put the impact numbers where people can see them
+FROM: Beatris Mendez Gandica, CEO/Founder, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+WHEN TO TRY IT: After GitHub Copilot CLI has built your SKILL and you have tried its preview.
+
+GO-TO
+Beatris is requesting a clearer picture of the foundation's impact.
+Our homepage explains the mission, but its impact cards omit the published
+numbers. Add three clear, static impact figures to the existing #impact section:
+23,832 students reached, 85% more interested in STEM, and 90% believed they
+learned to code. Preserve the meaning of each measure.
+
+GROUNDING
+Read challenge-data/content.json: about, sources.impact, and impact.
+These are a dated source snapshot, not newly verified live statistics. Use the
+supplied caption. Do not use the mock metadata in the full production app.
+The existing website's homepage inspired this request.
+
+SCOPE
+Edit index.html and styles.css only. Keep the existing card section and brand.
+Numbers must be present as readable text without JavaScript. Do not implement
+an animated counter, connect an API, or invent additional countries/events.
+
+ACCEPTANCE
+1. Exactly the three supplied values appear beside the correct metric labels.
+2. The source-snapshot caveat is visible in the impact section.
+3. At 390px and 1440px, cards do not cause horizontal page overflow.
+4. Keyboard navigation and visible link focus still work.
+5. The page loads from file:// without external runtime requests or console errors.
+
+USE THE SKILL
+For an implementation request, GitHub Copilot CLI should load issue-lifecycle
+automatically. Open or reuse this feature's issue before editing, then continue
+through the authorized workflow. Stop after opening only on a start-only request.
+Implement only this feature,
+inspect the local page, and record actual acceptance observations. Review the
+diff and explicit staged paths before authorizing a commit and branch push.
+Finish using the agreed workshop branch-handoff gate, not a deployment claim.
+If GitHub is unavailable, record LOCAL ONLY / PENDING ONLINE instead of inventing
+an issue or link. Do not implement the next challenge in this same issue.

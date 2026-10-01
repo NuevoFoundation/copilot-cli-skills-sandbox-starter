@@ -1,0 +1,43 @@
+CHALLENGE 03: Meet the people behind the mission
+FROM: Izzy Beltran, Creative Director and Master of Fun, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. The SKILL remains the required deliverable.
+
+GO-TO
+Izzy wants visitors to meet the people behind the mission.
+Create a friendly team page with the 16 supplied NF team members. Each card
+needs a name, NF role, short supplied blurb, and an original cartoon-style SVG
+avatar. The real NF team page already uses cartoons; this is a local practice
+interpretation, not a copy of that artwork.
+
+GROUNDING
+Read challenge-data/content.json: about.teamNotes, sources.team, and team.
+Use exactly those names, roles, and NF-only blurbs. They are a source snapshot,
+not a newly verified current directory. Do not browse for photos, copy full
+biographies, invent quotes, or infer appearance or personal traits from names.
+Nuvi, NF's robot mascot, is bundled at assets/Nuvi-Robot.svg. This is the
+placeholder illustration on the team-feature card; you may also use it in
+the team-page header. Keep it local and do not present Nuvi as a person's portrait.
+
+SCOPE
+Create team.html, add its link to the homepage's "Workshop pages" footer nav,
+and extend styles.css. Generate local SVG cartoon characters with code; no
+image-generation service is needed. Use abstract, friendly, gender-neutral
+characters rather than claimed likenesses. There is one prebundled fallback
+per person in assets/avatars if generation stalls. Say when you used a fallback.
+
+ACCEPTANCE
+1. All 16 supplied people appear once, with correct names, roles, and blurbs.
+2. Every card loads a distinct local SVG. No broken images or external requests.
+3. A visible note says avatars are illustrative characters, not portraits.
+4. Names and long roles remain readable without clipping at 390px and 1440px.
+5. Decorative avatars use empty alt text when the adjacent text identifies the
+   card; the page remains understandable without images or mouse interaction.
+
+USE THE SKILL
+GitHub Copilot CLI should automatically use issue-lifecycle in your assigned
+repo. Start a separate issue before editing and continue through the phases
+authorized by the request. Implement, inspect all cards, and review the intended diff and staged
+paths before authorizing a commit/push. Finish with the actual 16-card check,
+viewport checks, and published branch evidence. Do not claim a production
+directory update. If remote operations fail, leave online completion pending.

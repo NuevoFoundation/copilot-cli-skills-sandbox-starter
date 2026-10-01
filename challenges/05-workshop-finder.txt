@@ -1,0 +1,38 @@
+CHALLENGE 05: Help a learner find a coding starting point
+FROM: Deliana Escobari, Honorary VP Web Development, Curriculum Designer, and Content Creator, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. Implement this as one scoped feature.
+
+GO-TO
+Deliana wants visitors to find a coding activity that interests them.
+Create a small workshop finder with five supplied coding examples. Let a
+visitor filter by topic and search by title, then reset to the full list.
+The real NF site describes multiple coding languages and hands-on workshops.
+
+GROUNDING
+Read challenge-data/content.json: sources.programs and workshopExamples.
+The five topic names are grounded in the source site. Exercise titles and goals
+are workshop examples, not a current official schedule or enrollment catalog.
+Preserve the "Practice catalog example" label on each item.
+
+SCOPE
+Create workshops.html and optional workshops.js; reuse styles.css. Add a
+Workshop finder link in the homepage footer's "Workshop pages" navigation.
+Render all five cards in HTML so the content exists before JavaScript runs.
+Copy the selected local data into the page; do not fetch the JSON at runtime.
+
+ACCEPTANCE
+1. Initial and reset views show all five supplied examples.
+2. A labeled topic selector and case-insensitive title search combine correctly.
+3. An unmatched search shows a clear empty state, count, and reset action.
+4. Filtering is keyboard usable and updates a polite result-count announcement.
+5. No invented dates, prices, age requirements, registration, or network calls.
+   Test initial, combined-filter, empty, and reset states at 390px and 1440px.
+
+USE THE SKILL
+GitHub Copilot CLI should automatically use issue-lifecycle to start or reuse
+this feature's issue before editing your assigned repo. Continue through the
+authorized phases. After implementation, record observed filter outcomes.
+Review the diff and explicit paths before authorizing commit/push. Finish using
+verified branch evidence and the agreed workshop gate. Any blocked remote
+action remains LOCAL ONLY / PENDING ONLINE.

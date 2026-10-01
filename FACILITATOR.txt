@@ -1,0 +1,185 @@
+BLD1487S | NUEVO FOUNDATION | FACILITATOR RUNBOOK
+Prepared September 30, 2026
+
+The goal: build a SKILL and use it in everyday development, spending less time
+on issue administration and documentation and making progress easier to see.
+The ten PM briefs are optional sequential practice, not ten required features.
+Use the "NF Workflow Skills - 2026-09-30" deck, not the older Reviewed deck.
+It has 21 timed slides and two hidden recovery/evidence appendices.
+
+MATERIAL ENTRY POINTS
+
+- Students: open lab-guide.html in the assigned writable starter repository.
+  README.md contains the full command sequence. index.html is the website canvas.
+- Presenter: use a separate prepared copy with an active SKILL. Never put that
+  active answer file into the student starter or its distribution archive.
+- Reference companion: open README.md. It explains nine concepts and selected
+  examples. It is optional take-home material, not another required install.
+- Cached proof: evidence\nf-rollout.html and evidence\nf-rollout.json.
+- Recovery: rescue\WALKTHROUGH.md and rescue\LOCAL-EVIDENCE.template.txt.
+
+BEFORE THE ROOM
+
+Confirm the actual laptop image, CLI version, assigned host, managed-account
+sign-in, GitHub Copilot CLI entitlement/model access, seat-to-repository mapping, Issues,
+label creation/application, branch push, local commit identity, and interactive
+tool approval behavior. Import the current local starter, not an older public
+snapshot. Supply the reference separately. Verify the material links after import.
+
+The starter intentionally contains no active
+.github\skills\issue-lifecycle\SKILL.md. Its six numbered parts concatenate to
+the exact core merged into the NF website repository. The rescue stays inactive.
+Keep hidden .github teaching files when copying or importing the package.
+
+The supplied static HTML, briefs, facts, and images need no website or image
+service. GitHub Copilot CLI's hosted model still needs its approved service connection.
+GitHub operations need the assigned host and permissions. Rehearse both paths.
+No personal-account workaround, token pasted into chat, or policy bypass.
+
+Prepare a separate presenter folder with just these paths:
+
+  .github\skills\issue-lifecycle\SKILL.md
+  evidence\nf-rollout.json
+
+Copy the first file from the starter's rescue\issue-lifecycle\SKILL.md and the
+second from its evidence folder. Do not create an issue or alter the recorded
+production issue for this demonstration. Start GitHub Copilot CLI from that presenter folder.
+For the bounded rehearsal, only the local skill/view/glob/rg tools were exposed,
+with built-in remote integrations disabled. The observed run selected the SKILL,
+produced a clearly labeled preview, and left the fixture unchanged. That run had
+hosted-model connectivity; it was not an offline-model test.
+
+Use the room's approved client and normal permissions. Where the installed
+client supports it, the corresponding read-only launch is:
+
+  copilot --no-custom-instructions --disable-builtin-mcps --available-tools skill view glob rg
+
+Do not weaken managed settings to make this command run. If the room client or
+model cannot perform the preview, use the cached evidence page and name the limit.
+This tool-limited presenter session is not the student's writable lab session.
+
+THE EXACT CLOCK
+
+00-05 | Slides 1-3 | Welcome and begin managed-account sign-in.
+  Establish NF's repeated delivery problem and the one-skill outcome.
+  A co-facilitator can help sign-in while the teaching block proceeds.
+
+05-20 | Slides 4-13 | Topic + demo.
+  Separate the feature brief from the repeatable delivery procedure.
+  Explain instructions, prompts, agents, SKILLS, hooks, MCP, LSP, plugins,
+  and marketplace. Use the dinner request versus reusable recipe analogy.
+  Show the actual SKILL structure, phase boundaries, recorded production
+  rollout, and one bounded local-evidence preview. Do not install nine tools.
+  Use the speaker notes for the individual slide timeboxes.
+
+20-24 | Slide 14 | Paste one prompt; GitHub Copilot CLI builds the SKILL.
+  Open lab-guide.html. Use its comprehensive prompt in GitHub Copilot CLI chat.
+  GitHub Copilot CLI creates the file from parts 01-06 and explains the checkpoints.
+  Manual assembly is a recovery option, not the normal attendee instruction.
+  Give the rescue or a partner to anyone whose setup is still blocked.
+
+24-27 | Slide 15 | See the SKILL in action.
+  /skills reload, then /skills info issue-lifecycle. Confirm the local path.
+  Use the ordinary impact-feature preview from the guide without naming the
+  SKILL. Confirm that GitHub Copilot CLI loads issue-lifecycle before giving its plan.
+  The first preview makes no writes. The supplied repository instructions are
+  the automatic-routing entry point; do not omit them from the imported copy.
+  Explicit /issue-lifecycle is a diagnostic fallback, not proof of automatic
+  selection. Instructions guide a model; they are not a hard enforcement
+  boundary. Do not advertise guaranteed enforcement or install policy hooks
+  without organizer approval. Rehearse the normal feature request on the room
+  client and stop before implementation if it skips the SKILL.
+
+27-30 | Slide 16 | Track adoption and personalize before publication.
+  The draft already exists. Record that bootstrap honestly.
+  Open/reuse the actual adoption issue, apply "in progress", then stop.
+  Ask GitHub Copilot CLI to append the "Next volunteer" local extension, reload, and
+  observe that line in a read-only completion preview. Keep the core intact.
+
+30-35 | Slide 17 | Publish and verify.
+  Agree explicitly on the classroom's verified branch-handoff gate.
+  Paste the guide's finish prompt. GitHub Copilot CLI reviews/stages the SKILL, commits
+  with the real issue number, pushes when approved, verifies the remote branch
+  and SHA, and documents/closes the issue. Attendees inspect and approve the
+  work; they are not asked to type every Git command by hand.
+  Respect stricter room policy. A failed write remains visibly pending.
+
+35-40 | Slide 18 | Optional feature or consolidate the SKILL.
+  Once the SKILL is ready, introduce the team's ten new requests. Pick any
+  brief, or take on all ten over time. Work through choices one at a time,
+  using the SKILL for each new issue, scoped change, and completion record.
+  Fast finishers can continue the queue later. Stop new work at minute 40.
+
+40-45 | Slides 19-21 | Share and wrap.
+  Ask for the SKILL path, observed behavior, one personalization, and evidence.
+  Distinguish the writable starter from the optional reference companion.
+  Choose one repeated workflow to capture next week. Finish at minute 45.
+
+Slides 22-23 are hidden recovery/evidence appendices, not extra session time.
+The PDF includes both appendices for reference.
+
+PRESENTER DEMO PROMPT
+
+Use the local issue-lifecycle SKILL for a read-only classroom preview.
+Read evidence\nf-rollout.json and draft the completion record it supports.
+This is cached real evidence, not live GitHub data. Issue 345 is recorded as
+already closed. Preserve the operator-assisted completion limitation.
+
+Use only the local SKILL and JSON record. Do not contact GitHub, run live
+identity/permission checks, change any file, create or reopen an issue, post
+a comment, commit, push, or deploy. You have no authority for those operations.
+Do not claim a live check or successful unattended finish. If you cannot
+verify something from the local record, say so. Return a concise draft with
+What changed, Why, Acceptance checks, Evidence, and Follow-ups, clearly marked
+PREVIEW / RECORDED EVIDENCE / NO WRITES.
+
+WHAT TO POINT OUT
+
+The model is applying a reusable procedure, not discovering new website facts.
+The local record says PR #346 merged and issue #345 closed. An unattended
+finish verified the gate but could not obtain tool approval for its comment.
+The owner separately authorized operator-assisted completion writes.
+The existing owner/admin review exemption was explicitly approved for that PR;
+there was no independent approving review, protection change, or failed-check
+override. Never generalize this exception into the attendee workflow.
+
+The recorded merge SHA is:
+856986174ddfbf62b3a09c968dbcf7f51ebb35b2
+
+The public demo IDs are evidence, not attendee issue numbers or lab targets.
+This was a skill-only rollout, not a newly deployed website feature.
+
+THREE RECOVERY LANES
+
+1. SKILL discovery/selection failure:
+   Check path and capitalization, save, reload/info, and explicitly invoke.
+   Preserve the attendee's draft before copying the inactive rescue core.
+
+2. GitHub unavailable or a permission denied, while GitHub Copilot CLI still works:
+   Keep the real error. With explicit approval, continue locally and use the
+   LOCAL-EVIDENCE template. Record actual files/checks, local SHA if one exists,
+   and outstanding online steps. Say LOCAL ONLY / PENDING ONLINE.
+
+3. Model service unavailable:
+   Assemble the six parts manually, explain the decisions with a partner, and
+   inspect cached evidence. The file can be complete; runtime is unverified.
+
+Pair with a working seat where appropriate. Never turn a cached page into a
+claimed live demonstration or an exit code into proof of a successful write.
+
+SCOPE AND HONEST LIMITS
+
+The comparison used two closed simulated scenarios and one run per version
+per scenario: 10/10 selected assertions for the new core, 5/10 for the old.
+That is not a reliability percentage across real-world use or the ten briefs.
+The ten challenges have local assets and acceptance criteria; ten generated
+feature implementations have not been completed and tested.
+
+Original geometric avatars illustrate coding characters. They are not portraits
+or inferred likenesses. Blog and project content is labeled workshop sample data.
+Keep plain HTML/CSS and optional ordinary JavaScript. No backend, image API,
+deployment, payments, or collection of participant/student personal information.
+
+The local package does not prove venue import, external file access, a portal
+submission, or a sent organizer email. Follow the approved retention/export
+process for managed laptops and separately confirm the distribution route.

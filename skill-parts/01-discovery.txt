@@ -1,0 +1,5 @@
+---
+name: issue-lifecycle
+description: Track and ship Nuevo Foundation feature work with a GitHub issue, scoped changes, verification, and a commit-linked completion record. Use when asked to build or fix a feature, implement a PM brief, start tracked work, or finish and document a change, even if the request does not mention issue tracking. Planning and preview requests stay read-only.
+---
+

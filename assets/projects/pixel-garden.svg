@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Pixel garden</title>
+  <desc id="desc">Illustrative project tile with three geometric flowers. Illustrative workshop sample, not a real student's work.</desc>
+  <rect width="600" height="400" rx="32" fill="#E5F2E9"/>
+  <path d="M64 330h472" stroke="#171628" stroke-width="5" stroke-linecap="round"/>
+  <g stroke="#171628" stroke-width="5"><path d="M158 330V208m142 122V147m142 183V226" fill="none"/>
+  <path d="M158 276l-50-32v40l50 20m142-65 43-36v43l-43 20m142 23-41-20v36l41 11" fill="#7ECDB6"/>
+  <rect x="115" y="128" width="86" height="86" rx="18" fill="#ED9079"/>
+  <rect x="252" y="55" width="96" height="96" rx="20" fill="#FCC600"/>
+  <rect x="401" y="148" width="82" height="82" rx="18" fill="#A8BDEF"/>
+  <circle cx="158" cy="171" r="17" fill="#FFF"/><circle cx="300" cy="103" r="19" fill="#FFF"/><circle cx="442" cy="189" r="16" fill="#FFF"/></g>
+</svg>

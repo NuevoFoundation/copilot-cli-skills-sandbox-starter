@@ -1,0 +1,41 @@
+CHALLENGE 04: Publish a tiny coding-workflow workshop
+FROM: Oliver Zhang, Curriculum Guru, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. Do not turn nine concepts into nine required installations.
+
+GO-TO
+Oliver wants a short workshop that makes the nine concepts easy to understand.
+Build a beginner-friendly NF workshop page for new volunteer developers.
+Explain Instructions, Prompts, Agents, SKILLS, Hooks, MCP, LSP, Plugins, and
+Marketplace. A reader should understand which job each concept does and why
+the issue-lifecycle SKILL is the one they are building today.
+
+GROUNDING
+Read challenge-data/content.json: concepts and lesson.
+Use the supplied meanings, NF examples, and boundaries. Include the
+request-versus-recipe dinner analogy. Keep important limitations visible:
+instructions are guidance, hooks have bounded coverage, tools need permission,
+and a hosted model still needs approved service connectivity.
+
+SCOPE
+Create learn-copilot.html, optional lesson.js, and shared CSS. Add a link in the
+homepage's "Workshop pages" footer nav. Use ordinary local JavaScript, not
+modules or runtime fetch. Include the provided read-only practice prompt and
+one accessible three-choice knowledge check with local feedback.
+
+ACCEPTANCE
+1. All nine concepts have their own heading, plain-English meaning, NF example,
+   and limitation. No internal-company scenarios or unsupported guarantees.
+2. The prompt-versus-skill explanation is clear and the practice is read-only.
+3. The quiz identifies SKILL as correct, supports retry, and announces feedback.
+4. Lesson text remains readable if JavaScript is unavailable.
+5. No model API call, signup, credential collection, dependency install, or
+   external runtime resource. Test keyboard use and both 390px/1440px widths.
+
+USE THE SKILL
+GitHub Copilot CLI should automatically use issue-lifecycle in your assigned
+repo. Start a distinct issue before implementation and continue through the
+authorized phases. Verify lesson coverage and all quiz outcomes, then review the
+diff and explicit paths before authorizing commit/push. Finish with actual
+evidence under the workshop branch-handoff gate, not a production-publication
+claim. If services are blocked, record the real pending steps.

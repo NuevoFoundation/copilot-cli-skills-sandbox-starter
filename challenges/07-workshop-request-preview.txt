@@ -1,0 +1,39 @@
+CHALLENGE 07: Preview a workshop request without sending anything
+FROM: Anvesha Sinha, Logistics Ninja, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. This must remain a local, non-submitting prototype.
+
+GO-TO
+Anvesha wants to try a simple workshop-request experience without sending anything.
+Help someone explore what a program request could look like. Create a local
+preview form with program type, audience, and group size. Show a readable
+summary only after valid inputs. It must never send or store a request.
+
+GROUNDING
+Read challenge-data/content.json: sources.programs and requestPreview.
+Program types reflect the source site. Audience choices and the 1-60 size range
+are UI-exercise constraints, not promises about NF capacity or eligibility.
+Show the supplied notice and validation note.
+
+SCOPE
+Create request-preview.html and request-preview.js, extend styles.css, and add
+a local link in the homepage's "Workshop pages" footer navigation. Use proper
+labels, native controls, and an accessible error summary. Prevent form submission.
+Do not ask for a name, email, phone number, address, or any student's information.
+
+ACCEPTANCE
+1. Empty required fields, non-numeric sizes, zero, and values above 60 are rejected.
+2. A valid example (coding workshop, secondary learners, 12) shows exactly that
+   local summary. Reset clears it and returns the form to its initial state.
+3. The page says nothing is sent, stored, booked, or promised.
+4. No fetch/XHR, mailto, analytics, localStorage, cookies, or backend.
+5. Labels, error relationships, keyboard focus, and 390px/1440px layouts work.
+
+USE THE SKILL
+GitHub Copilot CLI should automatically use issue-lifecycle for this brief.
+Track its issue before editing your assigned repo and continue through the
+authorized phases.
+Record actual invalid/valid/reset observations and inspect outgoing requests.
+Review the diff and explicit files, then authorize commit/push. Finish with
+verified branch evidence, not a claim that a real workshop was booked or deployed.
+Keep blocked online actions visibly pending.

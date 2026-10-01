@@ -1,0 +1,23 @@
+## Finish: close with evidence, not an assertion
+
+1. Read the intended issue. If already closed, report that rather than duplicating
+   its completion comment. A preview may still be drafted without posting.
+2. Inspect the relevant change with `git show --stat SHA`, then resolve the full
+   SHA. Confirm publication on the host from the verified repository URL:
+   `gh api --hostname HOST repos/OWNER/REPO/commits/FULL_SHA --jq .sha`.
+   The API path uses owner/repo only, without a host prefix.
+3. Check the agreed gate. For a merged PR, inspect
+   `gh pr view PR_NUMBER --repo REPO_URL --json state,mergedAt,mergeCommit,headRefName,url`.
+   Confirm the PR's branch and diff match this change. An open or merely closed
+   PR is not merged. Verify and cite the merge commit, which may differ after a
+   squash. For a branch handoff, verify the intended remote branch contains the
+   commit. Do not equate a push with deployment.
+4. Write a completion summary: **What changed**, **Why**, **Acceptance checks**,
+   **Evidence** (real commit/PR URLs), and **Follow-ups**. State skipped or failed
+   checks. If deployment was in scope, verify the changed live behavior separately.
+5. Post the summary with `gh issue comment NUMBER --repo REPO_URL --body-file BODY_FILE`,
+   close with `gh issue close NUMBER --repo REPO_URL --reason completed`, and remove
+   `in progress` if present. Re-read the issue and verify its state and label.
+   If any step fails, report the partial state and reuse an already-posted summary
+   on retry. Do not claim completion or duplicate comments.
+

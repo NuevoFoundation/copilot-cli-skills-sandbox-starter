@@ -1,0 +1,13 @@
+## Start: record the work before changing it
+
+1. Reuse a supplied open issue after checking its repository, scope, and state.
+   Otherwise create one with `gh issue create --repo REPO_URL --title "TITLE" --body-file BODY_FILE`.
+   Include the user need, scope, acceptance criteria, and agreed completion gate.
+   If work already happened, say it is retrospective and record any real commit.
+2. Use the exact `in progress` label. Inspect existing labels; create this label
+   only if absent, without changing another label's meaning or color.
+   Apply it with `gh issue edit NUMBER --repo REPO_URL --add-label "in progress"`.
+   This is an issue label, not a GitHub Projects status.
+3. Report the actual issue URL and state. **Stop here** on a start-only request.
+   Do not reopen a closed issue or create a replacement without clarification.
+

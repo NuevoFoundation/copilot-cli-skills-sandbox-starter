@@ -1,0 +1,9 @@
+## Preview or unavailable services
+
+For a plan, preview, or dry run, draft the output without issue, label, comment,
+code, commit, push, or deployment writes. An already closed issue can be previewed.
+If authentication, permissions, or the network prevent a required operation,
+report the real error and leave remote completion pending. Do not switch accounts,
+weaken controls, invent issue numbers or URLs, or pretend local work was published.
+With explicit approval, continue locally and record **LOCAL ONLY / PENDING ONLINE**
+with the scope, files, actual checks, local SHA if any, and remaining online steps.

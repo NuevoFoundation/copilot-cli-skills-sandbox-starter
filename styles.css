@@ -1,13 +1,5 @@
 :root {
-  /*
-    THIS IS THE CHANGE YOU WILL WRAP AN ISSUE AROUND.
-    The page ships with a placeholder gray accent. Your task is to change
-    --accent to Nuevo Foundation's real brand yellow: #FCC600
-    (the same yellow already in the logo above the fold).
-    Do not change it yet. First let your skill open the issue, then make the
-    change, commit it, and let your skill close the issue with a writeup.
-  */
-  --accent: #9aa0a6;
+  --accent: #FCC600;
 
   --ink: #171628;
   --ink-soft: #494949;
@@ -49,6 +41,20 @@ a:focus-visible,
   outline-offset: 2px;
 }
 
+.skip-link {
+  position: absolute;
+  top: -5rem;
+  left: 1rem;
+  z-index: 1;
+  padding: 0.6rem 1rem;
+  background: var(--ink);
+  color: #fff;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
 /* Header */
 .site-header {
   display: flex;
@@ -68,6 +74,7 @@ a:focus-visible,
 .site-nav {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: clamp(1rem, 3vw, 2rem);
   font-weight: 700;
 }
@@ -183,7 +190,7 @@ a:focus-visible,
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
   gap: 1.25rem;
 }
 
@@ -213,6 +220,22 @@ a:focus-visible,
   color: var(--ink-soft);
 }
 
+.involvement {
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+  max-width: 44rem;
+  text-align: center;
+}
+
+.involvement .section-title {
+  margin-bottom: 1rem;
+}
+
+.involvement__link {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
 /* Footer */
 .site-footer {
   border-top: 6px solid var(--accent);
@@ -233,4 +256,35 @@ a:focus-visible,
   max-width: 36rem;
   font-size: 0.9rem;
   opacity: 0.75;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.5rem;
+  margin: 1.5rem auto 0;
+  max-width: 50rem;
+}
+
+.footer-links a {
+  text-underline-offset: 0.2em;
+}
+
+.site-footer a:focus-visible {
+  outline-color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .btn {
+    transition: none;
+  }
+
+  .btn:hover {
+    transform: none;
+  }
 }

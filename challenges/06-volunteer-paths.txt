@@ -1,0 +1,38 @@
+CHALLENGE 06: Turn "get involved" into a useful next step
+FROM: América Quistiano, Community Lead, Nuevo Foundation
+CONTEXT: Workshop request featuring a real NF teammate, not a quoted message.
+PRIORITY: Optional. One brief, one issue, one reviewable change.
+
+GO-TO
+América wants a clearer next step for people who would like to help.
+Extend the homepage's #get-involved section with three volunteer paths:
+create curriculum, help with a workshop, and host a virtual session. Selecting
+a path should reveal its supplied preparation checklist without leaving the page.
+
+GROUNDING
+Read challenge-data/content.json: sources.volunteering and volunteerPaths.
+The path names come from the real NF site. The preparation checklists are
+workshop-authored suggestions, not official volunteer eligibility or onboarding.
+
+SCOPE
+Edit index.html and styles.css; add volunteer-paths.js if needed. Use three
+proper buttons and a labeled output region. Keep the existing mission copy
+and do not remove features already delivered in other challenges.
+
+ACCEPTANCE
+1. All three paths are visible and the first selection has an understandable
+   initial state; the current selection is exposed with aria-pressed.
+2. Selecting each path displays its correct intro and exactly three checklist
+   items. Selection works with keyboard and pointer.
+3. The checklist update is announced without unexpectedly moving focus.
+4. No signup, email request, personal data, local storage, or remote submission.
+5. All states remain readable at 390px and 1440px with visible focus indicators.
+
+USE THE SKILL
+GitHub Copilot CLI should automatically use issue-lifecycle for this feature.
+Open its issue before coding in the assigned repo and continue through the
+authorized phases.
+Check all three interactions, review the diff and explicit staged paths, and
+authorize commit/push deliberately. Finish with the real checks and branch
+evidence under the agreed workshop gate. A failed network step is pending,
+not a reason to invent an issue or say a volunteer signed up.
